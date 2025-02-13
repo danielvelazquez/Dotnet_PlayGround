@@ -1,0 +1,11 @@
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\bin\Debug\net8.0\CosmosDBEmulator.Contracts.deps.json
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\bin\Debug\net8.0\CosmosDBEmulator.Contracts.dll
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\bin\Debug\net8.0\CosmosDBEmulator.Contracts.pdb
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\CosmosDBEmulator.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\CosmosDBEmulator.Contracts.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\CosmosDBEmulator.Contracts.AssemblyInfo.cs
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\CosmosDBEmulator.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\CosmosDBEmulator.Contracts.dll
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\refint\CosmosDBEmulator.Contracts.dll
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\CosmosDBEmulator.Contracts.pdb
+C:\Users\danie\source\repos\danielvelazquez\PlayGround\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\obj\Debug\net8.0\ref\CosmosDBEmulator.Contracts.dll
