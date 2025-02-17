@@ -4,7 +4,7 @@ using Microsoft.Azure.Cosmos.Linq;
 
 namespace CosmosDBEmulator.Services
 {
-    public class GetPersonas
+    public class GetPersonas : IGetPersonas
     {
         private Container _container;
 
@@ -21,9 +21,23 @@ namespace CosmosDBEmulator.Services
         /// <param name="id"></param>
         public async Task GetPersonaAsync(string name)
         {
+            QueryRequestOptions options = new()
+            {
+                // MaxConcurrency especifica el número de operaciones simultáneas ejecutadas en el lado cliente durante la ejecución de consultas en paralelo.
+                // Si se establece en 1, el paralelismo se deshabilita de forma eficaz. Si se establece en -1, el SDK administra este valor.
+                // Lo ideal sería establecer este valor en el número de particiones físicas del contenedor.
+                MaxItemCount = 500,
+                // La propiedad MaxBufferedItemCount establece el número máximo de elementos almacenados en búfer en el lado cliente
+                // durante la ejecución de una consulta en paralelo. Si se establece en -1, el SDK administra este valor.
+                // El valor ideal para esta configuración dependerá en gran medida de las características de la máquina cliente.
+                MaxBufferedItemCount = 5000
+            };
+
             // This might not work because the container is not initialized
             // Also, the query is case sensitive, so making to upper while executing might not find the record
-            var query3 = _container.GetItemLinqQueryable<Persona>().Where(i => i.Name == name).ToFeedIterator<Persona>();
+
+            // TODO: Review continuation token
+            var query3 = _container.GetItemLinqQueryable<Persona>(true, "", options).Where(i => i.Name == name).ToFeedIterator<Persona>();
         }
 
         /// <summary>
@@ -34,6 +48,7 @@ namespace CosmosDBEmulator.Services
         {
             // Option 1:
             // This option blocks other operations until the query is executed.
+
             var query = _container.GetItemLinqQueryable<Persona>()
                 .Where(p => p.Name.ToUpper() == name.ToUpper()).ToList<Persona>();
         }
