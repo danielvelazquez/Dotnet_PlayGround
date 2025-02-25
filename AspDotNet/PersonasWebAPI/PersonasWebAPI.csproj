@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\CosmosDBEmulator\Contracts\CosmosDBEmulator.Contracts\CosmosDBEmulator.Contracts.csproj" />
+    <ProjectReference Include="..\..\CosmosDB\Services\CosmosDBEmulator.Services\CosmosDBEmulator.Services.csproj" />
+  </ItemGroup>
+
 </Project>

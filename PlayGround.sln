@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspDotNet", "AspDotNet", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonasWebAPI", "AspDotNet\PersonasWebAPI\PersonasWebAPI.csproj", "{6725C039-4CE5-42BE-8C4E-8141442C3743}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonasWebAPI.Tests", "AspDotNet\PersonasWebAPI.Tests\PersonasWebAPI.Tests.csproj", "{3510E1A2-7D54-4D83-A785-148CBCFFAD60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6725C039-4CE5-42BE-8C4E-8141442C3743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6725C039-4CE5-42BE-8C4E-8141442C3743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6725C039-4CE5-42BE-8C4E-8141442C3743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3510E1A2-7D54-4D83-A785-148CBCFFAD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3510E1A2-7D54-4D83-A785-148CBCFFAD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3510E1A2-7D54-4D83-A785-148CBCFFAD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3510E1A2-7D54-4D83-A785-148CBCFFAD60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{E1DA748B-BABA-4712-BD86-6FC95CA1A2DA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8DA8390C-AF0D-4406-90B4-DF474AA2BD40} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{6725C039-4CE5-42BE-8C4E-8141442C3743} = {B7AB0E7D-0466-4933-8E11-92D45E0675BB}
+		{3510E1A2-7D54-4D83-A785-148CBCFFAD60} = {B7AB0E7D-0466-4933-8E11-92D45E0675BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31F1D936-BC1F-4421-BB3C-D180B2F68A6D}
