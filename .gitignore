@@ -1,3 +1,5 @@
 #Ignore Objects
 obj/
 .vs/
+/AspDotNet/PersonasWebAPI.Tests/bin/Debug/net8.0
+/AspDotNet/PersonasWebAPI/bin/Debug/net8.0
