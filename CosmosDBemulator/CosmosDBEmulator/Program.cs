@@ -1,6 +1,5 @@
 ﻿using CosmosDBEmulator.Contracts;
 using Microsoft.Azure.Cosmos;
-using System.Threading.Tasks;
 
 namespace CosmosDBEmulator
 {
@@ -11,7 +10,7 @@ namespace CosmosDBEmulator
 
         static async Task Main(string[] args)
         {
-            
+
         }
     }
 }
