@@ -1,5 +1,6 @@
 #Ignore Objects
 obj/
 .vs/
+/.vs/PlayGround
 /AspDotNet/PersonasWebAPI.Tests/bin/Debug/net8.0
 /AspDotNet/PersonasWebAPI/bin/Debug/net8.0
