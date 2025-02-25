@@ -9,6 +9,7 @@
       "CosmosDBEmulator/1.0.0": {
         "dependencies": {
           "CosmosDBEmulator.Contracts": "1.0.0",
+          "CosmosDBEmulator.Services": "1.0.0",
           "Microsoft.Azure.Cosmos": "3.47.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
           "Newtonsoft.Json": "13.0.3"
@@ -661,6 +662,19 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "CosmosDBEmulator.Services/1.0.0": {
+        "dependencies": {
+          "CosmosDBEmulator.Contracts": "1.0.0",
+          "Microsoft.Azure.Cosmos": "3.47.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "CosmosDBEmulator.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1189,6 +1203,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "CosmosDBEmulator.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CosmosDBEmulator.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
