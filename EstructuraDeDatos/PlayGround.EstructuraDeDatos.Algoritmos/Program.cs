@@ -1,12 +1,20 @@
-﻿namespace PlayGround.EstructuraDeDatos.Algoritmos
+﻿using PlayGround.EstructuraDeDatos.Algoritmos.Fabrica;
+
+namespace PlayGround.EstructuraDeDatos.Algoritmos
 {
     internal class Program
     {
-        // TODO: Implementar una fabrica de algoritmos para demostrar el uso e implementación de 
-        // ese patron de diseño.
+        // TODO: Add Timer to measure the time it takes to sort the array
+        // TODO: Implement method foreach sorting algorithm
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // BubbleSort
+            IBaseFabricaOrdenamiento baseFabricaOrdenamiento = FabricaOrdenamiento.CrearOrdenamiento(TiposFabricaOrdenamiento.BubbleSort);
+            int[] arreglo = { 1, 2, 3, 4, 5 };
+            
+            baseFabricaOrdenamiento.Sort(arreglo);
+
+            Console.WriteLine(string.Join(", ", arreglo));
         }
     }
 }
