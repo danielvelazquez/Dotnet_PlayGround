@@ -56,3 +56,7 @@ O(nk):
 
 Varía:
   - Shell Sort (generalmente O(n^3/2))
+
+
+  Revisar esto
+  https://learn.microsoft.com/es-es/dotnet/standard/collections/
