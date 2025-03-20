@@ -35,7 +35,7 @@ namespace AzFunction_CircuitBreaker
             {
                 _logger.LogError($"Error occurred: {ex.Message}");
             }
-            
+            return null;
         }
     }
 }

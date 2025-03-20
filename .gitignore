@@ -42,3 +42,5 @@ obj/
 /EstructuraDeDatos/PlayGround.EstructuraDeDatos.Algoritmos/bin/Debug/net8.0
 /AspDotNet/PersonasWebAPI/bin/Debug/net8.0
 /Patrones/API/CircuitBreaker/CircuitBreaker
+/CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.dll
+/CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.pdb

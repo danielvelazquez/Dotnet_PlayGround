@@ -13,8 +13,8 @@ var host = new HostBuilder()
         services.ConfigureFunctionsApplicationInsights();
 
         // Configurar Polly con Circuit Breaker
-        services.AddHttpClient("HttpClientWithCircuitBreaker")
-        .AddPolicyHandler(GetCircuitBreakerPolicy());
+        //services.AddHttpClient("HttpClientWithCircuitBreaker")
+        //.AddPolicyHandler(GetCircuitBreakerPolicy());
     })
     .Build();
 
