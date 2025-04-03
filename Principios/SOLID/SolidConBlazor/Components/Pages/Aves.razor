@@ -1,0 +1,44 @@
+﻿@page "/aves"
+@attribute [StreamRendering]
+
+<PageTitle>Aves</PageTitle>
+
+<h3>Aves</h3>
+
+<p>Esta página muestra una lista de aves.</p>
+
+@if (aves == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Especie</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ave in aves)
+            {
+                <tr>
+                    <td>@ave.</td>
+                    <td>@aves.Especie</td>
+                    <td>@aves.Color</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Aves[]? aves;
+
+    protected override async Task OnInitilizedAsync()
+    {
+        
+    }
+}
