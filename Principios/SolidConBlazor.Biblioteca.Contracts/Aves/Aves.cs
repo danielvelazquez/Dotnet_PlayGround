@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace SolidConBlazor.Biblioteca.Contracts.Aves
 {
-    public abstract class Aves
+    public abstract class Ave
     {
-        public abstract string Nombre { get; }
+        public abstract string Nombre { get; set; }
+        public abstract string Color { get; set; }
+        public abstract string Especie { get; set; }
         public abstract string Volar();
     }
 }

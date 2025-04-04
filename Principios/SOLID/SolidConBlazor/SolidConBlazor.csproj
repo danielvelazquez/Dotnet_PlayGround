@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\SolidConBlazor.Service\SolidConBlazor.Service.csproj" />
     <ProjectReference Include="..\..\SolidConBlazor.Biblioteca.Contracts\SolidConBlazor.Biblioteca.Contracts.csproj" />
+    <ProjectReference Include="..\..\SolidConBlazor.Contracts\SolidConBlazor.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

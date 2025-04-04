@@ -1,4 +1,6 @@
 ﻿@page "/aves"
+@using SolidConBlazor.Biblioteca.Contracts.Aves
+@using SolidConBlazor.Biblioteca.Contracts.Aves.Aves
 @attribute [StreamRendering]
 
 <PageTitle>Aves</PageTitle>
@@ -7,7 +9,7 @@
 
 <p>Esta página muestra una lista de aves.</p>
 
-@if (aves == null)
+@if (aguila == null)
 {
     <p><em>Cargando...</em></p>
 }
@@ -22,12 +24,12 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var ave in aves)
+            @foreach (var ave in aguila)
             {
                 <tr>
-                    <td>@ave.</td>
-                    <td>@aves.Especie</td>
-                    <td>@aves.Color</td>
+                    <td>@ave.Nombre</td>
+                    <td>@ave.Especie</td>
+                    <td>@ave.Color</td>
                 </tr>
             }
         </tbody>
@@ -35,10 +37,14 @@ else
 }
 
 @code {
-    private Aves[]? aves;
-
-    protected override async Task OnInitilizedAsync()
+    private Aguila[]? aguila;
+    protected override async Task OnInitializedAsync()
     {
-        
+        aguila = new Aguila[]
+        {
+            new Aguila { Nombre = "Loro", Especie = "Psittacidae", Color = "Verde" },
+            new Aguila { Nombre = "Canario", Especie = "Serinus canaria", Color = "Amarillo" },
+            new Aguila { Nombre = "Gaviota", Especie = "Laridae", Color = "Blanco y gris" }
+        };
     }
 }

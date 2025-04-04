@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace SolidConBlazor.Biblioteca.Contracts.Aves
 {
-    public class Pinguino : Aves
+    public class Pinguino : Ave
     {
-        public override string Nombre => throw new NotImplementedException();
+        public override string Nombre { get; set;} = string.Empty;
+        public override string Color { get; set; } = string.Empty;
+        public override string Especie { get; set; } = string.Empty;
+
 
         // Esto viola el principio de Liskov ya que no se puede implementar el método Volar
         // Los pingüinos no vuelan
