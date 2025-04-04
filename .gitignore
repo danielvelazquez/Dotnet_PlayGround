@@ -39,3 +39,8 @@ obj/
 /CosmosDBemulator/CosmosDBEmulator/bin/Debug/net8.0/CosmosDBEmulator.pdb
 /CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/obj/Debug/net8.0/refint/CosmosDBEmulator.Contracts.dll
 /CosmosDB/Services/CosmosDBEmulator.Services/obj/Debug/net8.0/CosmosDBEmulator.Services.AssemblyInfoInputs.cache
+/AspDotNet/PersonasWebAPI/bin/Debug/net8.0/runtimes/unix/lib/net6.0
+/AspDotNet/PersonasWebAPI/bin/Debug/net8.0
+/EstructuraDeDatos/PlayGround.EstructuraDeDatos.Algoritmos/bin/Debug/net8.0
+/Patrones/API/CircuitBreaker/CircuitBreaker/bin/Debug/net8.0
+/Patrones/API/CircuitBreakerFunction/AzFunction_CircuitBreaker/bin/Debug/net8.0
