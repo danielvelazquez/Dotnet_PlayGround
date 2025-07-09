@@ -39,6 +39,11 @@ obj/
 /CosmosDBemulator/CosmosDBEmulator/bin/Debug/net8.0/CosmosDBEmulator.pdb
 /CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/obj/Debug/net8.0/refint/CosmosDBEmulator.Contracts.dll
 /CosmosDB/Services/CosmosDBEmulator.Services/obj/Debug/net8.0/CosmosDBEmulator.Services.AssemblyInfoInputs.cache
+/EstructuraDeDatos/PlayGround.EstructuraDeDatos.Algoritmos/bin/Debug/net8.0
+/AspDotNet/PersonasWebAPI/bin/Debug/net8.0
+/Patrones/API/CircuitBreaker/CircuitBreaker
+/CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.dll
+/CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.pdb
 /Principios/SOLID/SolidConBlazor/bin/Debug/net8.0
 /AspDotNet/PersonasWebAPI/bin/Debug/net8.0
 /CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.dll
