@@ -44,3 +44,16 @@ obj/
 /EstructuraDeDatos/PlayGround.EstructuraDeDatos.Algoritmos/bin/Debug/net8.0
 /Patrones/API/CircuitBreaker/CircuitBreaker/bin/Debug/net8.0
 /Patrones/API/CircuitBreakerFunction/AzFunction_CircuitBreaker/bin/Debug/net8.0
+/Principios/SOLID/SolidConBlazor/bin/Debug/net8.0
+/Principios/SolidConBlazor.Biblioteca.Contracts/bin/Debug/net8.0
+/Principios/SolidConBlazor.Contracts/bin/Debug/net8.0
+/SolidConBlazor.Service/bin/Debug/net8.0
+/PlayGround.ServiceDefaults/bin/Debug/net8.0
+/PlayGround.AppHost/bin/Debug/net8.0
+/Middlewares/Middlewares/bin/Debug/net8.0
+/CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Contracts.dll
+/CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Contracts.pdb
+/CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Services.dll
+/CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Services.pdb
+/CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.dll
+/CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.pdb
