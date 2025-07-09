@@ -1,14 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CosmosDBEmulator.Contracts;
+using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
-namespace PersonasWebAPI.Controllers
+namespace PersonasWebAPI.Controllers;
+
+[ApiController]
+[Route("[controller]")]
+public class PersonasController : ControllerBase
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class PersonasController : ControllerBase
+    private readonly ILogger<PersonasController> _logger;
+
+    public PersonasController(ILogger<PersonasController> logger)
     {
-        public IActionResult Index()
-        {
-            return Ok("Hello, World!");
-        }
+        _logger = logger;
+    }
+
+    [HttpGet(Name ="GetPersonas")]
+    public IEnumerable<Persona> Get()
+    {
+        return new List<Persona>();
     }
 }
