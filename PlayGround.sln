@@ -34,6 +34,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaker", "Patrones\API\CircuitBreaker\CircuitBreaker\CircuitBreaker.csproj", "{85D7FECF-5ECB-4EA4-B8C4-B33BC1744BA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzFunction_CircuitBreaker", "Patrones\API\CircuitBreakerFunction\AzFunction_CircuitBreaker\AzFunction_CircuitBreaker.csproj", "{FD9FBBFC-412D-4D75-8A0F-F93F1148ADE0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principios", "Principios", "{D8BA3066-3533-4CC4-96E0-6D57D539BC98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor", "Principios\SOLID\SolidConBlazor\SolidConBlazor.csproj", "{38775A56-0B59-4E41-87BA-B2CCAB982D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor.Contracts", "Principios\SolidConBlazor.Contracts\SolidConBlazor.Contracts.csproj", "{D38D4922-01C6-42AE-84D2-D23841BA05C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor.Biblioteca.Contracts", "Principios\SolidConBlazor.Biblioteca.Contracts\SolidConBlazor.Biblioteca.Contracts.csproj", "{43445030-B675-437D-A2F9-CAC77C3D02AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor.Service", "SolidConBlazor.Service\SolidConBlazor.Service.csproj", "{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +90,22 @@ Global
 		{FD9FBBFC-412D-4D75-8A0F-F93F1148ADE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD9FBBFC-412D-4D75-8A0F-F93F1148ADE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD9FBBFC-412D-4D75-8A0F-F93F1148ADE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38775A56-0B59-4E41-87BA-B2CCAB982D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38775A56-0B59-4E41-87BA-B2CCAB982D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38775A56-0B59-4E41-87BA-B2CCAB982D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38775A56-0B59-4E41-87BA-B2CCAB982D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38D4922-01C6-42AE-84D2-D23841BA05C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38D4922-01C6-42AE-84D2-D23841BA05C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38D4922-01C6-42AE-84D2-D23841BA05C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38D4922-01C6-42AE-84D2-D23841BA05C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43445030-B675-437D-A2F9-CAC77C3D02AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43445030-B675-437D-A2F9-CAC77C3D02AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43445030-B675-437D-A2F9-CAC77C3D02AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43445030-B675-437D-A2F9-CAC77C3D02AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +121,10 @@ Global
 		{7BC9104D-2E91-4F9D-A890-BCE5AE3BA464} = {C3348D00-FFE5-4EB4-93CC-3BD98A10BA07}
 		{85D7FECF-5ECB-4EA4-B8C4-B33BC1744BA4} = {7BC9104D-2E91-4F9D-A890-BCE5AE3BA464}
 		{FD9FBBFC-412D-4D75-8A0F-F93F1148ADE0} = {7BC9104D-2E91-4F9D-A890-BCE5AE3BA464}
+		{38775A56-0B59-4E41-87BA-B2CCAB982D83} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
+		{D38D4922-01C6-42AE-84D2-D23841BA05C1} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
+		{43445030-B675-437D-A2F9-CAC77C3D02AD} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
+		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31F1D936-BC1F-4421-BB3C-D180B2F68A6D}

@@ -1,0 +1,50 @@
+﻿@page "/aves"
+@using SolidConBlazor.Biblioteca.Contracts.Aves
+@using SolidConBlazor.Biblioteca.Contracts.Aves.Aves
+@attribute [StreamRendering]
+
+<PageTitle>Aves</PageTitle>
+
+<h3>Aves</h3>
+
+<p>Esta página muestra una lista de aves.</p>
+
+@if (aguila == null)
+{
+    <p><em>Cargando...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Especie</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ave in aguila)
+            {
+                <tr>
+                    <td>@ave.Nombre</td>
+                    <td>@ave.Especie</td>
+                    <td>@ave.Color</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Aguila[]? aguila;
+    protected override async Task OnInitializedAsync()
+    {
+        aguila = new Aguila[]
+        {
+            new Aguila { Nombre = "Loro", Especie = "Psittacidae", Color = "Verde" },
+            new Aguila { Nombre = "Canario", Especie = "Serinus canaria", Color = "Amarillo" },
+            new Aguila { Nombre = "Gaviota", Especie = "Laridae", Color = "Blanco y gris" }
+        };
+    }
+}
