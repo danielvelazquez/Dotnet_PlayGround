@@ -11,6 +11,7 @@ namespace dv.autenticacion.auth0
         private IConfiguration _configuration;
         private ILogger<AuthService> _logger;
         private IHttpClientFactory _httpClientFactory;
+       
         public AuthService(
             ILogger<AuthService> logger,
             IConfiguration configuration,
@@ -70,35 +71,6 @@ namespace dv.autenticacion.auth0
             }
         }
 
-        public async Task<HttpResponse> PostRequest(string apiEndpoint, string jsonContent)
-        {
-            if (string.IsNullOrEmpty(apiEndpoint) || string.IsNullOrEmpty(jsonContent))
-            {
-                throw new ArgumentException("API endpoint and JSON content must be provided.");
-            }
-            var client = _httpClientFactory.CreateClient();
-            var token = await _authService.GetAuth0TokenAsync();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            try
-            {
-                var content = new StringContent(jsonContent, System.Text.Encoding.UTF8, "application/json");
-                var response = await client.PostAsync(apiEndpoint, content);
-                return new HttpResponse
-                {
-                    Success = response.IsSuccessStatusCode,
-                    StatusCode = response.StatusCode,
-                    ErrorMessage = response.IsSuccessStatusCode ? null : $"Response Code: {response.StatusCode}"
-                };
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error in Players Post Request.");
-                return new HttpResponse
-                {
-                    Success = false,
-                    ErrorMessage = ex.Message
-                };
-            }
-        }
+        
     }
 }
