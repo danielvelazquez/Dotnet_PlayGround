@@ -30,6 +30,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround.AppHost", "PlayGround.AppHost\PlayGround.AppHost.csproj", "{7D681E47-F304-4145-8F03-A994A5D23DA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround.ServiceDefaults", "PlayGround.ServiceDefaults\PlayGround.ServiceDefaults.csproj", "{6E2A3489-E15F-BAAD-0772-F9E9CD71B86B}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EstructuraDeDatos", "EstructuraDeDatos", "{6BF8CDF0-DE26-4E5F-91F5-5BDA60EFDB42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround.EstructuraDeDatos.Algoritmos", "EstructuraDeDatos\PlayGround.EstructuraDeDatos.Algoritmos\PlayGround.EstructuraDeDatos.Algoritmos.csproj", "{0868B6FF-E37A-475F-8A49-739116A84293}"
@@ -41,6 +42,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaker", "Patrones\API\CircuitBreaker\CircuitBreaker\CircuitBreaker.csproj", "{85D7FECF-5ECB-4EA4-B8C4-B33BC1744BA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzFunction_CircuitBreaker", "Patrones\API\CircuitBreakerFunction\AzFunction_CircuitBreaker\AzFunction_CircuitBreaker.csproj", "{FD9FBBFC-412D-4D75-8A0F-F93F1148ADE0}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principios", "Principios", "{D8BA3066-3533-4CC4-96E0-6D57D539BC98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor", "Principios\SOLID\SolidConBlazor\SolidConBlazor.csproj", "{38775A56-0B59-4E41-87BA-B2CCAB982D83}"
@@ -50,6 +52,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor.Biblioteca.Contracts", "Principios\SolidConBlazor.Biblioteca.Contracts\SolidConBlazor.Biblioteca.Contracts.csproj", "{43445030-B675-437D-A2F9-CAC77C3D02AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor.Service", "SolidConBlazor.Service\SolidConBlazor.Service.csproj", "{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blazor", "Blazor", "{AEE2781A-3E57-4087-8E6D-D58428850FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +131,10 @@ Global
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +155,7 @@ Global
 		{D38D4922-01C6-42AE-84D2-D23841BA05C1} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
 		{43445030-B675-437D-A2F9-CAC77C3D02AD} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
+		{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35} = {AEE2781A-3E57-4087-8E6D-D58428850FD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31F1D936-BC1F-4421-BB3C-D180B2F68A6D}
