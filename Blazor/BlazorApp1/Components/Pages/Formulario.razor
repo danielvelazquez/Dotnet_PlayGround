@@ -1,0 +1,34 @@
+﻿@page "/formulario"
+@using BlazorApp1.Modelos
+
+<PageTitle>Un Formulario de Prueba</PageTitle>
+<h3>Un Formulario de Prueba</h3>
+
+<p>Este componente demuestra un formulario simple.</p>
+
+<form>
+	<div class="mb-3">
+		<label for="nombre" class="form-label">Nombre</label>
+		<input type="text" class="form-control" id="nombre" @bind="@formularioSimple.Nombre" />
+	</div>
+	<div class="mb-3">
+		<label for="apellido" class="form-label">Apellido</label>
+		<input type="text" class="form-control" id="apellido" @bind="@formularioSimple.Apellido" />
+	</div>
+	<div class="mb-3">
+		<label for="correoE" class="form-label">Correo Electronico</label>
+		<input type="text" class="form-control" id="correoElectronico" @bind="@formularioSimple.CorreoElectronico" />
+	</div>
+
+	<button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+@code {
+
+	private FormularioSimple formularioSimple = new FormularioSimple();
+
+	protected override async Task OnInitializeAsync()
+	{
+		
+	}
+}
