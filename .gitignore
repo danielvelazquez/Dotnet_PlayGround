@@ -80,3 +80,4 @@ obj/
 /Patrones/API/CircuitBreaker/CircuitBreaker/bin/Debug/net8.0
 /Patrones/API/CircuitBreakerFunction/AzFunction_CircuitBreaker/bin/Debug/net8.0/.azurefunctions
 /Patrones/API/CircuitBreakerFunction/AzFunction_CircuitBreaker/bin/Debug/net8.0
+/dv.autenticacion.auth0/bin/Debug/net8.0
