@@ -71,6 +71,9 @@ obj/
 /CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Contracts.pdb
 /CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Services.dll
 /CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Services.pdb
+/Principios/SolidConBlazor.Contracts/bin/Debug/net8.0
+/Principios/SolidConBlazor.Biblioteca.Contracts/bin/Debug/net8.0
+/SolidConBlazor.Service/bin/Debug/net8.0
 /CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.dll
 /CosmosDBemulator/Contracts/CosmosDBEmulator.Contracts/bin/Debug/net8.0/CosmosDBEmulator.Contracts.pdb
 /Principios/SolidConBlazor.Contracts/bin/Debug/net8.0

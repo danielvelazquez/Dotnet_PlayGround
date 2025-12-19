@@ -9,6 +9,29 @@ namespace CosmosDBEmulator.Services
         {
             try
             {
+                //using (CosmosClient client = new CosmosClient(Endpoint, PrimaryKey))
+                //{
+                //    Database database = await client.CreateDatabaseIfNotExistsAsync("Personas");
+                //    Container container = await database.CreateContainerIfNotExistsAsync("Persona", "/ExternalId");
+                //    //var collection = client.CreateDocumentCollectionIfNotExistsAsync(database.SelfLink, new DocumentCollection { Id = "Persona" }).Result.Resource;
+                //    var persona = new Persona
+                //    {
+                //        Id = Guid.NewGuid().ToString(),
+                //        ExternalId = "123",
+                //        Name = "John",
+                //        LastName = "Doe",
+                //        //AssignedRole = new Roles
+                //        //{
+                //        //    Id = Guid.NewGuid(),
+                //        //    Name = "Admin",
+                //        //    Description = "Admin role"
+                //        //}
+                //    };
+                //    if (!string.IsNullOrEmpty(persona.Id))
+                //    {
+                //        await container.CreateItemAsync(persona, new PartitionKey(persona.PartitionKey));
+                //    }
+                //}
                 string endpoint = "";
                 string primaryKey = "";
                 using (CosmosClient client = new CosmosClient(endpoint, primaryKey))
