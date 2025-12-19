@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Principios\\SOLID\\SolidConBlazor\\SolidConBlazor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
