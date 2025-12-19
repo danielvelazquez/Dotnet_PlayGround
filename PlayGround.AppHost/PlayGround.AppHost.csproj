@@ -13,10 +13,12 @@
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <PackageReference Include="Aspire.Hosting.Azure.Functions" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Middlewares\Middlewares\Middlewares.csproj" />
+    <ProjectReference Include="..\Playground.RabbitMQ.Function\Playground.RabbitMQ.Function.csproj" />
   </ItemGroup>
 
 </Project>

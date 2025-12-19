@@ -30,6 +30,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround.AppHost", "PlayGround.AppHost\PlayGround.AppHost.csproj", "{7D681E47-F304-4145-8F03-A994A5D23DA2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround.ServiceDefaults", "PlayGround.ServiceDefaults\PlayGround.ServiceDefaults.csproj", "{6E2A3489-E15F-BAAD-0772-F9E9CD71B86B}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EstructuraDeDatos", "EstructuraDeDatos", "{6BF8CDF0-DE26-4E5F-91F5-5BDA60EFDB42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround.EstructuraDeDatos.Algoritmos", "EstructuraDeDatos\PlayGround.EstructuraDeDatos.Algoritmos\PlayGround.EstructuraDeDatos.Algoritmos.csproj", "{0868B6FF-E37A-475F-8A49-739116A84293}"
@@ -41,6 +42,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaker", "Patrones\API\CircuitBreaker\CircuitBreaker\CircuitBreaker.csproj", "{85D7FECF-5ECB-4EA4-B8C4-B33BC1744BA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzFunction_CircuitBreaker", "Patrones\API\CircuitBreakerFunction\AzFunction_CircuitBreaker\AzFunction_CircuitBreaker.csproj", "{FD9FBBFC-412D-4D75-8A0F-F93F1148ADE0}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principios", "Principios", "{D8BA3066-3533-4CC4-96E0-6D57D539BC98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor", "Principios\SOLID\SolidConBlazor\SolidConBlazor.csproj", "{38775A56-0B59-4E41-87BA-B2CCAB982D83}"
@@ -50,6 +52,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor.Biblioteca.Contracts", "Principios\SolidConBlazor.Biblioteca.Contracts\SolidConBlazor.Biblioteca.Contracts.csproj", "{43445030-B675-437D-A2F9-CAC77C3D02AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidConBlazor.Service", "SolidConBlazor.Service\SolidConBlazor.Service.csproj", "{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Colas", "Colas", "{1D0E87E8-C161-4C5A-822A-AC5F420C164D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{887204C2-7F6F-43F7-AAD8-39614DD5A654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.RabbitMQ.Function", "Playground.RabbitMQ.Function\Playground.RabbitMQ.Function.csproj", "{40A711E1-97AC-B85F-8116-2824891E520F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.RabbitMQ.Tests", "Playground.RabbitMQ.Tests\Playground.RabbitMQ.Tests.csproj", "{BB1CA1D6-0470-42BA-B13D-21660A0C43D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +135,14 @@ Global
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A711E1-97AC-B85F-8116-2824891E520F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A711E1-97AC-B85F-8116-2824891E520F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A711E1-97AC-B85F-8116-2824891E520F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A711E1-97AC-B85F-8116-2824891E520F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1CA1D6-0470-42BA-B13D-21660A0C43D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1CA1D6-0470-42BA-B13D-21660A0C43D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1CA1D6-0470-42BA-B13D-21660A0C43D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1CA1D6-0470-42BA-B13D-21660A0C43D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +163,9 @@ Global
 		{D38D4922-01C6-42AE-84D2-D23841BA05C1} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
 		{43445030-B675-437D-A2F9-CAC77C3D02AD} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
+		{887204C2-7F6F-43F7-AAD8-39614DD5A654} = {1D0E87E8-C161-4C5A-822A-AC5F420C164D}
+		{40A711E1-97AC-B85F-8116-2824891E520F} = {887204C2-7F6F-43F7-AAD8-39614DD5A654}
+		{BB1CA1D6-0470-42BA-B13D-21660A0C43D0} = {887204C2-7F6F-43F7-AAD8-39614DD5A654}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31F1D936-BC1F-4421-BB3C-D180B2F68A6D}

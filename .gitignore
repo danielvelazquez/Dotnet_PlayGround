@@ -83,3 +83,5 @@ obj/
 /Patrones/API/CircuitBreaker/CircuitBreaker/bin/Debug/net8.0
 /Patrones/API/CircuitBreakerFunction/AzFunction_CircuitBreaker/bin/Debug/net8.0/.azurefunctions
 /Patrones/API/CircuitBreakerFunction/AzFunction_CircuitBreaker/bin/Debug/net8.0
+/CosmosDBemulator/CosmosDBEmulator/bin/Debug/net8.0/CosmosDBEmulator.deps.json
+/CosmosDB/Services/CosmosDBEmulator.Services/bin/Debug/net8.0/CosmosDBEmulator.Services.deps.json
