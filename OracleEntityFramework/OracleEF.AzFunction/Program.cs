@@ -2,6 +2,7 @@ using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 
 // Configuracion de Builder con estructura y comentarios para estudiarlos.
@@ -37,6 +38,11 @@ builder.Services.AddHostedService<InitialConfigurationHostedService>();
 builder.Services.UseKinectifyClient(configuration);
 builder.Services.AddScoped<PlayerClient>();
 builder.Services.AddScoped<GamingActivityClient>();
+
+// Filter config
+builder.Logging
+    .AddConsole()
+    .AddFilter("Microsoft.EntityFrameworkCore.Database.Command", LogLevel.Debug);
 
 // DbContexts usando la misma IConfiguration registrada
 var conString = configuration.GetConnectionString("sykcros") ??

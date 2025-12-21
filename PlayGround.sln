@@ -57,6 +57,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OracleEntityFramework", "Or
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleEF.AzFunction", "OracleEntityFramework\OracleEF.AzFunction\OracleEF.AzFunction.csproj", "{7EE3A512-99E7-D655-1669-07EA0CCFD649}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loggers", "Loggers", "{495C82EF-28A6-49CC-85DD-D2C7F4CF6B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Serilog", "Playground.Serilog\Playground.Serilog.csproj", "{0F4BCBB0-0346-458D-BB8E-165CDCFAC837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{8E5F5A43-3D53-4248-93F3-67DD5C4A2CF2}"
+	ProjectSection(SolutionItems) = preProject
+		InitialConfigurationHostedService.cs = InitialConfigurationHostedService.cs
+		InitialConfigurationService.cs = InitialConfigurationService.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +145,10 @@ Global
 		{7EE3A512-99E7-D655-1669-07EA0CCFD649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EE3A512-99E7-D655-1669-07EA0CCFD649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE3A512-99E7-D655-1669-07EA0CCFD649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4BCBB0-0346-458D-BB8E-165CDCFAC837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4BCBB0-0346-458D-BB8E-165CDCFAC837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4BCBB0-0346-458D-BB8E-165CDCFAC837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4BCBB0-0346-458D-BB8E-165CDCFAC837}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +170,7 @@ Global
 		{43445030-B675-437D-A2F9-CAC77C3D02AD} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
 		{9A25E5E9-0DCC-4C35-BED2-A632E77108B7} = {D8BA3066-3533-4CC4-96E0-6D57D539BC98}
 		{7EE3A512-99E7-D655-1669-07EA0CCFD649} = {AF6E3565-782B-4D9B-BA2B-623DE528CB39}
+		{0F4BCBB0-0346-458D-BB8E-165CDCFAC837} = {495C82EF-28A6-49CC-85DD-D2C7F4CF6B09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31F1D936-BC1F-4421-BB3C-D180B2F68A6D}
