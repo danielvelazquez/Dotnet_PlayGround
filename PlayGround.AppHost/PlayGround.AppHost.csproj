@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Middlewares\Middlewares\Middlewares.csproj" />
+    <ProjectReference Include="..\Playwrite.LectorDePagina\Playwrite.LectorDePagina.csproj" />
   </ItemGroup>
 
 </Project>
